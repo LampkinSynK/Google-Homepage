@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Google Advanced Search</title>
+  <link href="advanced.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="/images/googlefavicon.png">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav><img src="images/googleboogle.png" height="73.6" width="217.6"></nav>
+
+  <h2>Advanced Search</h2>
+<!-- Different sections with different forms -->
+  <section><p><strong>Find pages with</strong></p> <p><strong>To do this in the search box</strong></p></section>
+  
+  <section>
+    <p>all these words:</p> <form> <input id="important" type="text"> </form> <p>Type the important words:  tricolor rat terrier</p> </section>
+  <section>
+    <p>this exact word or phrase:</p><form>  <input id="exact" type="text"> </form> <p>Put exact words in quotes:  "rat terrier"</p>
+  </section>
+  <section>
+    <p>any of these words:</p><form><input id="any" type="text"> </form> <p>Type OR between all the words you want:  miniature OR standard</p>
+  </section>
+  <section>
+    <p>none of these words:</p><form><input id="minus" type="text"></form> <p>Put a minus sign just before words you don't want:  -rodent, -"Jack Russell"</p>
+  </section>
+      <aside>
+      <p>numbers ranging from: </p> <form> <input id="firstRange" type="text"> To
+      <input id="secondRange" type="text">  </form> <p>Put 2 periods between the numbers and add a unit of measure: 10..35 lb, $300..$500, 2010..2011</p>
+      </aside>
+    </div>
+  <!-- Submit Button -->
+    <button class="advButton" onclick="advSearch()">Advanced Search</button>
+  <script src="script.js"></script>
+</body>
+
+</html>

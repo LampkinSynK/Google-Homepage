@@ -1,0 +1,63 @@
+
+/* universal styling for each form */
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 65%;
+  }
+  
+  /* style specifically for section paragraph tags and input bars respectively */
+  
+  section p{
+    width: 20%;
+  }
+  
+  section input {
+    width: 500px;
+  }
+  
+  /* style for aside tag(s) */
+  
+  aside {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 65%;
+    border-bottom: solid;
+    border-color: #ebebeb;
+  }
+  
+  aside p{
+    width: 20%
+  }
+  
+  aside input{
+    width: 233px
+    
+  }
+  
+  /* Button styling */
+  
+  .advButton {
+    display: flex;
+    float: right;
+    margin-top: 50px;
+    margin-right: 850px;
+    background-color: #488af1;
+    color:white;
+    border-radius: 5px;
+    border: 1px #2f79ed solid;
+    padding: 10px 18px 10px 18px;
+    
+    
+  }
+  
+  h2 {
+    color: red;
+  
+    border-bottom: solid;
+    border-color: #ebebeb;
+  }
